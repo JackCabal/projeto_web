@@ -54,8 +54,7 @@ function addItemToList() {
 }
 
 function deleteElement() {
-    $("#close").click(function(){
-        //document.getElementById("")
+    $(".btn-danger").click(function () {
         $(this).closest(".historico-container").remove();
     })
 }
